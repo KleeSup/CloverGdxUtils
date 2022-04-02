@@ -22,7 +22,7 @@ buildscript {
 apply plugin: 'java-library'
 apply plugin: 'com.vanniktech.maven.publish'
 
-sourceCompatibility = 1.7
+sourceCompatibility = 1.8
 
 //Obviously, change the next line to match your project name.
 def projectName = 'CloverGdxUtils'
@@ -96,3 +96,4 @@ dependencies {
     }
 
 }
+targetCompatibility = JavaVersion.VERSION_1_8
