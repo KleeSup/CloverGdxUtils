@@ -7,16 +7,16 @@ Made by KleeSup with <3
 Add gradle repository:
 ```xml
 allprojects {
-  repositories {
-		...
-		maven { url 'https://jitpack.io' }
-	}
+    repositories {
+      ...
+      maven { url 'https://jitpack.io' }
+    }
 }
 ```
 Add gradle dependency:
 ```xml
 dependencies {
-  implementation 'com.github.KleeSup:CloverGdxUtils:-SNAPSHOT'
+    implementation 'com.github.KleeSup:CloverGdxUtils:VERSION'
 }
 ```
 
